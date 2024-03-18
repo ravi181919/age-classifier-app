@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background: #222831;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#container {
+  height: 60vh;
+  width: 50%;
+  background: #31363f;
+  color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: first baseline;
+  -ms-flex-align: first baseline;
+  align-items: first baseline;
+  padding: 3vw;
+  -webkit-box-shadow: 60px 60px 100px #000000c6, inset 1px 1px 10px #000;
+  box-shadow: 60px 60px 100px #000000c6, inset 1px 1px 10px #000;
+}
+.head {
+  width: 100%;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.head .heading {
+  border: 2px solid #76abae;
+  border-radius: 10px;
+  padding: 0.5vw 1vw;
+  font-size: 1.7vw;
+}
+.main h3 {
+  color: #76abae;
+}
+.main h3 > span {
+  font-family: "Poppins";
+  font-size: 1.4vw;
+  color: #eeeeee;
+}
+.result {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: 100%;
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1vw 1vw;
+}
+.result h2 {
+  font-size: 1.5vw;
+  color: #ff0000;
+}
+.result h2 span {
+  color: #212121;
+  font-family: "Poppins";
+  font-size: 1.2vw;
+}
+.btn {
+  width: 100%;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+}
+.btn button {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: transparent;
+  padding: 0.5vw 2vw;
+  font-family: "Poppins";
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.btn .check {
+  color: #00ff00;
+}
+.btn .restart {
+  color: #ff0000;
+}
