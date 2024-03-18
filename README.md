@@ -30,4 +30,5 @@ This is a simple web application that allows users to input their name and age, 
 
 ## Credits
 
-This project is created by [Your Name].
+This project is created by [Ravi Kumar Gupta].
+
